@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "搭配",
+  "usingComponents": {
+    "wux-filterbar": "/static/wux/filterbar/index",
+    "wux-tag": "/static/wux/tag/index"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "wux-cell-group": "/static/wux/cell-group/index",
+    "wux-cell": "/static/wux/cell/index",
+    "wux-button": "/static/wux/button/index",
+    "wux-toptips": "/static/wux/toptips/index"
+  }
+}

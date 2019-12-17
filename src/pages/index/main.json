@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "衣橱Lite",
+  "usingComponents": {
+    "wux-button": "/static/wux/button/index",
+    "wux-avatar": "/static/wux/avatar/index",
+    "wux-grids": "/static/wux/grids/index",
+    "wux-grid": "/static/wux/grid/index",
+    "wux-segmented-control": "/static/wux/segmented-control/index",
+    "wux-search-bar": "/static/wux/search-bar/index",
+    "wux-fab-button": "/static/wux/fab-button/index"
+  }
+}

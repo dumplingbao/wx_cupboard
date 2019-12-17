@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/me/main",
+    "pages/assort/main",
+    "pages/add/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "衣橱",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/cupboard.png",
+      "selectedIconPath": "static/tabs/cupboard-active.png"
+    }, {
+      "text": "新增",
+      "pagePath": "pages/add/main",
+      "iconPath": "static/tabs/add.png",
+      "selectedIconPath": "static/tabs/add-active.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/me/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    }]
+  }
+}

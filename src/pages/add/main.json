@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "新增",
+  "usingComponents": {
+    "wux-toptips": "/static/wux/toptips/index",
+    "wux-avatar": "/static/wux/avatar/index",
+    "wux-upload": "/static/wux/upload/index",
+    "wux-input": "/static/wux/input/index",
+    "wux-radio-group": "/static/wux/radio-group/index",
+    "wux-radio": "/static/wux/radio/index",
+
+    "wux-popup-select": "/static/wux/popup-select/index",
+    "wux-cell-group": "/static/wux/cell-group/index",
+    "wux-cell": "/static/wux/cell/index",
+    "wux-button": "/static/wux/button/index"
+  }
+}

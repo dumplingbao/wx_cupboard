@@ -1,4 +1,5 @@
 <script>
+import request from '@/utils/request.js'
 export default {
   created () {
     // 调用API从本地缓存中获取数据
@@ -24,8 +25,13 @@ export default {
       mpvue.setStorageSync('logs', logs)
     }
   },
-  // onLoad() {
-  // },
+  onLoad() {
+    if(wx.getStorageSync('openid')){
+      request.setAuth()
+    }else{
+      request.setOpenid()
+    }
+  },
   // log () {
   //   console.log(`log at:${Date.now()}`)
   // }
